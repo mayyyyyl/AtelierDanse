@@ -46,8 +46,11 @@ h1, h2, h3 {
     background-color: #8d0800;
     border: 1px solid #8d0800;
     margin-top: 3%;
-    margin-inline: 50%;
     margin-bottom: 5%;
+}
+
+#sing-up {
+     margin-inline: 50%;
 }
   
 .btn-primary:hover {
