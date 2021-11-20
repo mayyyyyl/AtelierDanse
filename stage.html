@@ -62,9 +62,10 @@
                 <div class="carousel-caption">
                     <h1 class="display-2">Bootstrap</h1>
                     <h3>Complete Website Layout</h3>
-                    <button type="button" class="btn btn-outline-light btn-lg">Plus d'information</button>
-                    <button type="button" class="btn btn-primary btn-lg">S'inscrire
-                    </button>
+                    <button type="button" class="btn btn-outline-light btn-lg">
+                        <a href="#description"></a>Plus
+                        d'information</button>
+                    <button type="button" class="btn btn-primary btn-lg">S'inscrire</button>
                 </div>
             </div>
             <div class="carousel-item">
@@ -76,7 +77,7 @@
         </div>
     </div>
     <!-- Description-->
-    <div class="container-fluid padding">
+    <div class="container-fluid padding" id="description">
         <div class="row">
             <div class="col-12">
                 <h3>Description</h3>
@@ -89,6 +90,7 @@
                     donec</p>
             </div>
         </div>
+        <hr class="my-4">
     </div>
 
     <!-- Review-->
@@ -98,8 +100,8 @@
                 <h3>Avis</h3>
             </div>
         </div>
-        <div class="row text-center">
-            <div class="col-md-4">
+        <div class="row">
+            <div class="col-md-4" id="review">
                 <h4>Super Stage</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dui proin velit tempor
                     eget.
@@ -113,7 +115,7 @@
                 </p>
                 <p>Posté le 10 avril 2021</p>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4" id="review">
                 <h4>Super Stage</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dui proin velit tempor
                     eget.
@@ -127,19 +129,18 @@
                 </p>
                 <p>Posté le 10 avril 2021</p>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4" id="review">
                 <h4>Super Stage</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dui proin velit tempor
+                <p id="review-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dui proin velit tempor
                     eget.
                     Neque a magna pulvinar suscipit. Donec sed orci tristique ac venenatis mattis. Varius tempus,
                     tempor
                     non id commodo suspendisse sed hac mattis. Eget tellus adipiscing senectus nec pellentesque
                     turpis
-                    donec</p>
-                <br />
-                <p>Par Marianne Dubois <br>
+                    donec
+                    <br />Par Marianne Dubois <br>
                 </p>
-                <p>Posté le 10 avril 2021</p>
+                <p id="review-date">Posté le 10 avril 2021</p>
             </div>
         </div>
     </div>
