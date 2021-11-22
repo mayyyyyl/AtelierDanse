@@ -44,6 +44,7 @@ h1, h2, h3, h4 {
 h4 {
     color:  #8d0800;
     font-size: medium;
+    margin-top: 1.5em;
 }
 #sing-up {
     margin-inline: 50%;
@@ -142,12 +143,11 @@ input, textarea, select {
 /* Avis*/
 
 #review {
-    margin: 0.8rem;
-    padding: 2rem;
     background-color:  #2a3038;
-    border-radius: 20px
+    border: 3px solid #f6f7f9;
+    border-radius: 20px;
 }
-#review-text {
+#review-text, #review-author {
     color: #f6f7f9;
 }
 #review-date{
@@ -228,7 +228,7 @@ hr.light-100 {
       padding: 1.2rem;
     }
   }
-  @media (max-width: 576px) {
+  @media (max-width: 580px) {
     .carousel-caption {
       top: 40%;
     }
