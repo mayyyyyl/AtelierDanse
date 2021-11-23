@@ -22,7 +22,7 @@ html, body {
     background-color: #f6f7f9 ;
 }
 
-/* NavBar*/
+/* NavBar */
 .navbar {
     padding: .8rem;
 } 
@@ -70,6 +70,14 @@ h4 {
 
 #dancers {
     margin-top: 3rem;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-transition: .6s ease-in-out;
+        transition: .6s ease-in-out;
+}
+#dancers:hover {
+    -webkit-transform: scale(1.1);
+	transform: scale(1.1);
 }
 
 /* Bouton */
@@ -183,7 +191,7 @@ input, textarea, select {
 .fa-youtube {
     color: #bb0000;
 }
-.fa-youtube:hover, .fa-instagram:hoverr, .fa-twitter:hover, .fa-facebook:hover {
+.fa-youtube:hover, .fa-instagram:hover, .fa-twitter:hover, .fa-facebook:hover {
     color: #2a3038;
 }
 /* Footer */
@@ -208,7 +216,7 @@ hr.light-100 {
 }
 
 /*---Media Queries --*/
-@media (max-width: 992px) {
+@media (max-width: 1199px) {
     .social a {
       font-size: 4em;
       padding: 2rem;
@@ -220,7 +228,7 @@ hr.light-100 {
         font-size: 110%;
     }
 }
-@media (max-width: 768px) {
+@media (max-width: 991px) {
     .carousel-caption {
       top: 45%;
     }
@@ -237,15 +245,15 @@ hr.light-100 {
     .display-4 {
       font-size: 200%;
     }
-    .social a {
+    /* .social a {
       font-size: 2.5em;
       padding: 1.2rem;
-    }
+    } */
     #review, .card {
         margin-bottom: 5em;
     }
 }
-@media (max-width: 680px) {
+@media (max-width: 767px) {
     .carousel-caption {
         top: 40%;
     }
@@ -266,7 +274,11 @@ hr.light-100 {
         font-size: 160%;
     }   
     .social a {
-      font-size: 2em;
-      padding: .7rem;
+      font-size: 2.5em;
+      padding: 1.2rem;
+    }
+    form {
+        padding: 1.5rem;
+        margin: 1.5rem;
     }
 }
