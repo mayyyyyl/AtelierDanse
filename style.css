@@ -19,7 +19,7 @@ html, body {
     height: 100%;
     width: 100%;
     font-family: 'Montserrat', sans-serif;
-    background-color: #f6f7f9 ;
+    background-color: #f6f7f9;
 }
 
 /* NavBar */
@@ -70,10 +70,10 @@ h4 {
 
 #dancers {
     margin-top: 3rem;
-        -webkit-transform: scale(1);
-        transform: scale(1);
-        -webkit-transition: .6s ease-in-out;
-        transition: .6s ease-in-out;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .6s ease-in-out;
+    transition: .6s ease-in-out;
 }
 #dancers:hover {
     -webkit-transform: scale(1.1);
@@ -133,7 +133,7 @@ h4 {
 #teachers{
     padding: 2rem;
 }
-#style {
+.card-subtitle {
     margin: 1.5rem;
     font-style: oblique;
     color: #cb1a00;
@@ -160,7 +160,7 @@ input, textarea, select {
 
 /* Avis*/
 
-#review {
+#review, #review2, #review3 {
     background-color:  #2a3038;
     border: 3px solid #f6f7f9;
     border-radius: 20px;
@@ -245,10 +245,6 @@ hr.light-100 {
     .display-4 {
       font-size: 200%;
     }
-    /* .social a {
-      font-size: 2.5em;
-      padding: 1.2rem;
-    } */
     #review, .card {
         margin-bottom: 5em;
     }
