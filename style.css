@@ -160,19 +160,26 @@ input, textarea, select {
 
 /* Avis*/
 
-#review, #review2, #review3 {
-    background-color:  #2a3038;
+.card-review-body {
+    background-color:#2a3038;
     border: 3px solid #f6f7f9;
-    border-radius: 20px;
-    margin-bottom:1.5em;
+    border-radius: 50px;
+    /* margin-bottom:1.5em; */
 }
-#review-text, #review-author {
-    color: #f6f7f9;
+.card-review-text,.card-review-author  {
+    color:#f6f7f9;
+    margin: 0.8rem;
+    padding: 0.5rem;
 }
-#review-date{
+.card-review-date, .card-review-title{
+    color:#cb1a00;
+    margin: 1rem;
+    padding: 0.8rem;
+}
+.card-review-date{
     font-size: small;
-    color:   #cb1a00;
 }
+
 /* Connect */
 
 .social a {
